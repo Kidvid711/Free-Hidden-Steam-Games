@@ -4,7 +4,9 @@ title  Free Hidden Steam Games
 cls 
 color 07
 
-=========================================================
+echo =========================================================
+echo                 Free Hidden Steam Games
+echo =========================================================
 echo 1.  Age of Empires Online
 echo 2.  America’s Army 3
 echo 3.  Arcane Saga Online
@@ -32,8 +34,9 @@ echo 24. Trackmania Nations Forever
 echo 25. Vanguard: Saga of Heroes F2P
 echo 26. Wizardry Online
 echo 27. Exit
-==========================================================
-
+echo ==========================================================
+echo 
+echo ==========================================================
 
 set /p input=Choose which game you would like to install?
 if %input%==1 goto aoe
