@@ -34,9 +34,9 @@ echo 24. Trackmania Nations Forever
 echo 25. Vanguard: Saga of Heroes F2P
 echo 26. Wizardry Online
 echo 27. Exit
-echo ==========================================================
-echo 
-echo ==========================================================
+echo ==================================================================
+echo Refrence Article: https://gamertweak.com/free-hidden-games-steam/
+echo ==================================================================
 
 set /p input=Choose which game you would like to install?
 if %input%==1 goto aoe
