@@ -5,15 +5,15 @@ cls
 color 07
 
 =========================================================
-echo 1. Age of Empires Online
-echo 2. America’s Army 3
-echo 3. Arcane Saga Online
-echo 4. Arctic Combat
+echo 1.  Age of Empires Online
+echo 2.  America’s Army 3
+echo 3.  Arcane Saga Online
+echo 4.  Arctic Combat
 echo 5.  Arma 2
-echo 6. Battle for Graxia
-echo 7. Brawl Busters
-echo 8. Bullet Run
-echo 9. Codename Gordon
+echo 6.  Battle for Graxia
+echo 7.  Brawl Busters
+echo 8.  Bullet Run
+echo 9.  Codename Gordon
 echo 10. District 187
 echo 11. Dungeon Fighter Online
 echo 12. F.E.A.R. Online
@@ -62,6 +62,7 @@ if %input%==24 goto track
 if %input%==25 goto soh
 if %input%==26 goto wo
 
+color 04
 echo invalid input. Please enter a number between 1-26 and try again. 
 pause
 goto menu
