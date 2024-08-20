@@ -31,6 +31,7 @@ echo 23. TERA (EU)
 echo 24. Trackmania Nations Forever
 echo 25. Vanguard: Saga of Heroes F2P
 echo 26. Wizardry Online
+echo 27. Exit
 ==========================================================
 
 
@@ -61,6 +62,7 @@ if %input%==23 goto eutera
 if %input%==24 goto track
 if %input%==25 goto soh
 if %input%==26 goto wo
+if %input%==27 goto end
 
 color 04
 echo invalid input. Please enter a number between 1-26 and try again. 
@@ -280,4 +282,6 @@ Start Steam://install/221360
 pause
 goto menu
 
-Echo Thank you for using the script. It was my first time making it. 
+:end
+exit
+
